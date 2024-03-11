@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    padding:0;
+    margin:0;
+    
+}
+.main-nav{
+    height: 715px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./img/nav_bg.png);
+    background-size: 100%;
+    
+}
+.nav{
+      display: flex;
+      background-attachment: fixed;
+}
+.nav img{
+    height: 80px;
+    width: 80px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.nav-bar{
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    color: white;
+   font-family: "Roboto", sans-serif; 
+   font-size: 20px;
+   font-weight: bold;
+}
+.nav-bar a:hover{
+    border-bottom: 2px solid #E2DD5B;
+}
+.btn-nav button{
+    padding: 15px 25px;
+    margin-top: 12px;
+    background-color: #E2DD5B;
+    border: none;
+    
+}
+
+.btn-nav a{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+}
+.btn-nav button:hover{
+    background-color: #e2dd5bb0;
+}
+.btn-nav{
+    margin-left: 137px;
+
+}
+.text p{
+    color: white;
+    /* font-family: "Roboto", sans-serif;  */
+    font-family: "DM Sans", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 79px;
+    margin-left: 20px;
+}
+.text button {
+    padding: 24px 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+     background-color: #E2DD5B;
+     border: none;
+     font-weight: 600;
+}
+.text button a{
+    text-decoration: none;
+    color: white;
+   
+}
+.text button:hover{
+    background-color: #EAD150;
+}
+.body-text{
+    color:#E2DD5B;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: "Source Sans 3", sans-serif;
+}
+.imp p {
+    font-size: 30px;
+    
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+    font-weight: 900;
+    color: #528D4B;
+    margin-top: 20px;
+}
+/* card start */
+.card{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.card1 {
+     padding: 15px 30px; 
+    background-color: #CCCCCC ;
+    height: 120px; width: 143px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #528D4B;
+    font-size: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+   
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.card2, .card3{ 
+    margin-left: 20px;
+    padding: 15px 30px; 
+    background-color: #CCCCCC ;
+    height: 120px; width: 143px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #528D4B;
+    font-size: 30px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
