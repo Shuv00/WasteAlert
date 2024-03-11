@@ -16,7 +16,7 @@
 }
 .nav{
       display: flex;
-      background-attachment: fixed;
+      /* background-attachment: fixed; */
 }
 .nav img{
     height: 80px;
