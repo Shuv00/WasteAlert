@@ -26,70 +26,45 @@
     font-size:30px;
     font-weight:bold;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     color: #528D4B;
 
 }
 form{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 form .password{
     margin-top: 20px;
 }
-form  .email, form  .password{
-    height: 20px;
-    width: 455px;
-    margin: auto;
-    align-items: center;
-    justify-items: center;
-    margin-left: 120px;
-    font-family: "Roboto Flex", sans-serif;
-    padding: 20px;
-    font-size: 30px;
+form  input{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    outline: none;
     border: 1px solid #528D4B;
-    font-weight: 50;
+    color: #528D4B;
+    display: grid;
+    margin-left: 231px;
+    font-family: "Roboto Flex", sans-serif;
+  
     
 }
-form .email:focus , form. .password:focus {
-    border: none;
+form input:focus{
+    border: 1px solid #FFA831;
 }
 .extra {
-    margin-left: 120px;
-    margin-top: 30px;
-    padding: 10px;
-    font-family: "Roboto Flex";
-    font-size: 25px;
+    margin: 20px;
     display: flex;
-    gap: 10px;
-}
-.extra .box {
-    height: 30px;
-    width: 3px ;
-    margin-left: 70px;
-    background-color: #528D4B;
-}
-.extra a {
-    text-decoration: none;
-    color: #E94E1B;
-    margin-left: 43px;
-}
-.extra a:hover{
-    opacity: 70%;
 }
 input[type="submit"]
 {
-  padding: 17px 188px;
-  border-radius: 0.5em;
-  background-color:#528D4B ;
-  font-family: "Roboto Flex";
-  font-size: 32px;
-  font-weight: bold;
-  color:white;
-  cursor: pointer;
-  margin-left: 130px;
-  border-color: #528D4B;
-  margin-top: 20px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background-color:#528D4B ;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 320px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bold;
 
  
 }
