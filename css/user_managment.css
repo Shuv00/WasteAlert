@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.main{
+    display: flex;
+}
+.up-nav{
+    height: 65px;
+    width: 100%;
+}
+.up-nav img{
+    height:50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.nav{
+    height:700px;
+    width:275px;
+    font-family: Inter;
+    margin-left:20px;
+}
+#nav-data1{
+    margin-top:16px;
+}
+.nav-data {
+    display: flex;
+    text-align: center;
+    padding:12px;
+    align-items: center;
+    font-weight: 600;
+}
+.nav-data p{
+    padding-left: 12px;
+    
+}
+.nav h1{
+    font-size: 16px;
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+#nav-active{
+    background-color: #F0F2F5;
+    width:200px;
+    height:40px;
+    border-radius: 12px;
+
+}
+.main-body{
+
+}
+.main-body h1{
+    font-size: 31px;
+    font-family: Inter;
+}
+.complain{
+    width: 887px;
+    margin-top: 20px;
+    height: 400px;
+    margin-left: 20px;
+    border:1px solid #F0F2F5;
+    border-radius: 12px;
+    font-family: Inter;
+    font-size: 14px;
+   
+}
+th, td{
+    border-bottom: 1px solid #F0F2F5;
+
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th, td {
+    text-align: center; /* Center text horizontally */
+    vertical-align: middle; /*Center text vertically*/
+    padding: 5px; /* Optional: Adds padding for better spacing */
+}
+.submit{
+    padding: 5px;
+    background-color: transparent;
+}

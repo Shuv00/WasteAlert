@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rozha+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+.second{
+    height: 960px;
+    width: 630px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-image: url("../img/login_bg-01.jpg");
+}
+.first{
+    height: 960px;
+    width: 825px;
+    margin: auto;
+}
+.first p{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 231px;
+    font-family: "Rozha One", serif;
+    font-size: 30px;
+    color: #FFA831;
+}
+form{
+    margin-top: 20px;
+}
+form input{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #528D4B;
+    color: #528D4B;
+    display: grid;
+    margin:auto;
+}
+form input:focus{
+    border: 1px solid #FFA831;
+}
+form a{
+   text-decoration: none;
+   margin-left: 231px;
+   color: #FFA831;
+   font-family: "Roboto Flex", sans-serif;
+   margin-top: 15px;
+}
+.login-btn{
+    height: 44px;
+    width: 300px;
+    background-color: #FFA831;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    font-size:  14px;
+    cursor: pointer;
+    margin:auto;
+    margin-top: 10px;
+}

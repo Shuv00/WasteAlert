@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rozha+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+p{
+    font-family: "Rozha One", serif;
+    color: #528D4B;
+    font-size: 20px;
+}
+.main form .submit{
+    /* height: 44px;
+    width: 300px; */
+    background-color: #FFA831;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    font-size:  14px;
+    cursor: pointer;
+    margin:auto;
+
+
+}
+.main input {
+    padding:10px;
+    width: 250px;
+    border: 1px solid #FFA831;
+    outline: none;
+    gap:5px;
+    font-family: "Roboto Flex", sans-serif;
+}
+form input:focus{
+    border: 1px solid #FFA831;
+
+}
+#description{
+    height: 150px;
+}

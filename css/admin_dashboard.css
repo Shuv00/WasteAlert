@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Saira+Stencil+One&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #f3f1eb;
+}
+.f-text{
+    color: #528D4B;
+    margin-top:28px;
+    margin-left: 31px;
+    font-family:  Saira Stencil One; font-size:25px;
+    display: flex;
+    gap: 470px;
+}
+.nav-bar {
+    margin-left: 31px;
+    margin-top: 30px;
+    gap:20px;
+}
+.nav-div1{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    width: 150px;
+    height: 40px;
+    background-color: #FFA831;
+    border-radius: 5px;
+    justify-content: center;
+}
+.nav-div1 a, .nav-div2 a{
+    text-decoration: none;
+    color:#528D4B;
+    font-size: 20px;
+    font-family:"Roboto Flex" ;
+    font-weight: bold;
+}
+.nav-div2{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.section{
+    display: flex;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin-left:200px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+    font-family: "Roboto Flex" ;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #528D4B;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #528D4B;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #FFA831;
+}
+
+

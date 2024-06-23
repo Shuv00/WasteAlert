@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.main{
+    display: flex;
+}
+.up-nav{
+    height: 65px;
+    width: 100%;
+}
+.up-nav img{
+    height:50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.nav{
+    height:700px;
+    width:275px;
+    font-family: Inter;
+    margin-left:20px;
+}
+#nav-data1{
+    margin-top:16px;
+}
+.nav-data {
+    display: flex;
+    text-align: center;
+    padding:12px;
+    align-items: center;
+    font-weight: 600;
+}
+.nav-data p{
+    padding-left: 12px;
+    
+}
+.nav h1{
+    font-size: 16px;
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+#nav-active{
+    background-color: #F0F2F5;
+    width:200px;
+    height: 40px;
+    border-radius: 12px;
+}
+.body-content{
+    display: flex;
+    margin:0 auto;
+    vertical-align: auto;
+    justify-content: center;
+    gap:10px;
+    margin-top: 100px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #F0F2F5;
+    border-radius: 12px;
+    text-align: center;
+    margin: 0 auto;
+    justify-items: center;
+    font-family: Inter;
+}
+.card h1{
+    font-size:20px;
+    margin-top: 80px;
+}
+.card p{
+    
+}

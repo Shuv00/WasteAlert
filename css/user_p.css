@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Roboto Flex", sans-serif;
+}
+.main{
+    display: flex;
+}
+.nav{
+    height: 100vh;
+    width: 180px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    gap:20px;
+    /* padding-top:20px; */
+}
+h1{
+    color: #528D4B;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #528D4B;
+}
+.user-profile {
+    margin-top: 10px;
+}
+.user-profile, .statistics, .logout, .complain{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.user-profile:hover, .statistics:hover, .logout:hover, .complain:hover{
+    background-color: #FFA831;
+    border-radius: 10px;
+}
+.container{
+   display: grid;
+   place-items: center;
+}
+ .profile{
+    place-self: center;
+    margin-left:450px;
+    margin-top: 20px;
+    height: 100%;
+    width: 300px;
+    font-family: "Rokkitt", serif; 
+     color: #528D4B;
+   
+}
+.name .name-label{
+    font-weight: bold;
+}
+.name .name-data{
+    border: 2px solid #FFA831;
+    padding-left: 2px;
+    padding:7px;
+    border-radius: 5px; 
+    font-weight: 200;
+}
+
+.btn a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+.profile form .name-data{
+    width: 300px;
+    outline: none;
+}
+form input:focus{
+    border: 2 px solid #528D4B;
+}
+.btn {
+    width: 50px;
+    height: 40px;
+    padding:10px;
+    background-color: #528D4B;
+    color: white;
+    border-radius: 5px;
+    outline:none;
+}
