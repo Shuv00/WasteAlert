@@ -10,7 +10,7 @@ WasteAlert is a web application developed to help users report waste-related iss
 
 - **Backend:** PHP
 - **Frontend:** HTML, CSS, JavaScript
-- **Database:** MySQL (or any other relational database you might be using)
+- **Database:** MySQL
 ## Installation
 
 1. **Clone the Repository**
